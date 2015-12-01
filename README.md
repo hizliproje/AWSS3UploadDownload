@@ -1,2 +1,1 @@
-# AWSS3Upload
-Amazon Web Services S3 File Upload
+# Amazon Web Servis S3 'e Dosya Yükleme
