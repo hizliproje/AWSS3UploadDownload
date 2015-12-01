@@ -18,7 +18,7 @@ namespace AWSS3Upload
             // _file_name_S3        : Dosyanın S3 içindeki adı
 
             // IAmazonS3 class'ı oluşturuyoruz ,Benim lokasyonum RegionEndpoint.EUCentral1 onun için onu seçiyorum
-            // Sizde lokasyonunuza göre değiştirmelisiniz.
+            // Sizde yüklemek istediğiniz bucket 'ın lokasyonuna göre değiştirmelisiniz.
             IAmazonS3 client = Amazon.AWSClientFactory.CreateAmazonS3Client(RegionEndpoint.EUCentral1);
 
             // Bir TransferUtility oluşturuyoruz(Türkçesi : Aktarım Programı).
